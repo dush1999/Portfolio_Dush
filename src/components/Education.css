@@ -1,0 +1,51 @@
+.education-section {
+  padding: 80px 100px;
+  color: #f0f0f0;
+  text-align: center;
+}
+
+.education-title {
+  font-size: 2.4rem;
+  margin-bottom: 40px;
+  color: #ffffff;
+  font-weight: bold;
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+}
+
+.education-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 40px;
+  justify-content: center;
+}
+
+.education-card {
+    background-color: rgba(0, 0, 0, 0.85); /* Black with slight transparency */
+    padding: 30px;
+    border-radius: 14px;
+    box-shadow: 0 0 14px rgba(0, 0, 0, 0.3);
+    text-align: left;
+    color: #f0f0f0;
+  }
+
+  .education-card h3 {
+    font-size: 1.3rem;
+    color: #ffffff;
+  }
+  
+  .education-card h4 {
+    font-size: 1.1rem;
+    color: #cccccc;
+  }
+  
+  .education-info {
+    font-size: 1rem;
+    color: #dddddd;
+  }
+
+.education-duration {
+  font-size: 0.95rem;
+  color: #aaa;
+  margin: 10px 0;
+}

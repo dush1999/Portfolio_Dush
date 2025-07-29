@@ -1,0 +1,109 @@
+/* Experience.css */
+
+.experience-section {
+    padding: 80px 40px;
+    background: transparent;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .experience-title {
+    font-size: 2.4rem;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 2.4rem;
+    margin-bottom: 40px;
+    font-weight: bold;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+  }
+  
+  .experience-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 30px;
+    max-width: 1300px;
+    width: 100%;
+  }
+  
+  .experience-card {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 12px;
+    padding: 30px 25px;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.4);
+    color: #e0e0e0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .experience-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
+  }
+  
+  .experience-role {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #ff2e63;
+  }
+  
+  .experience-company {
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+    color: #ccc;
+  }
+  
+  .experience-dates {
+    font-size: 0.95rem;
+    color: #aaa;
+    margin-bottom: 12px;
+  }
+  
+  .experience-description {
+    font-size: 1rem;
+    color: #bbb;
+    line-height: 1.5;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .experience-section {
+      padding: 60px 20px;
+    }
+  
+    .experience-title {
+        font-size: 2.2rem;
+        font-weight: 700;
+        color: #00adb5;  /* You can change this to match your brand */
+        text-align: center;
+        margin-bottom: 40px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        position: relative;
+      }
+      
+      .experience-title::after {
+        content: "";
+        display: block;
+        width: 60px;
+        height: 3px;
+        background-color: #00adb5;
+        margin: 10px auto 0;
+        border-radius: 2px;
+      }
+  
+    .experience-card {
+      padding: 25px 20px;
+    }
+  }
+  .experience-card ul {
+    padding-left: 20px;
+  }
+  
+  .experience-card li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+  }

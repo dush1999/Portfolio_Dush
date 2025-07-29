@@ -1,0 +1,65 @@
+.project-section {
+    padding: 80px 60px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .project-title {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #ffffff;
+    font-weight: bold;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+  }
+  
+  .project-subtitle {
+    font-size: 1.1rem;
+    margin-bottom: 40px;
+    color: #ffffff;
+    font-weight: bold;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+  }
+  
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    justify-content: center;
+  }
+  
+  .project-card {
+    background-color: #111;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-8px);
+  }
+  
+  .project-image {
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .project-content {
+    padding: 20px;
+  }
+  
+  .project-content h3 {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  .project-content p {
+    font-size: 0.95rem;
+    color: #ccc;
+  }
+  

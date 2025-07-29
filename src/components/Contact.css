@@ -1,0 +1,70 @@
+.contact-section {
+    padding: 60px 20px;
+    text-align: center;
+    /* background-color: #000; */
+    color: white;
+  }
+  
+.contact-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 40px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+  font-family: 'Playfair Display', serif;
+}
+  
+  .contact-subtitle {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 50px;
+    font-size: 1rem;
+    font-family: 'Playfair Display', serif;
+  }
+  
+  .contact-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+  }
+  
+  .contact-card {
+    background-color: #111;
+    border-radius: 10px;
+    padding: 30px 20px;
+    width: 230px;
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  
+  .contact-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .contact-icon {
+    background-color: #222;
+    width: 60px;
+    height: 60px;
+    margin: 0 auto 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    color: #f0a500;
+  }
+  
+  .contact-card h4 {
+    margin: 10px 0 5px;
+    font-weight: 600;
+  }
+  
+  .contact-card p {
+    color: #ccc;
+    font-size: 0.95rem;
+    word-break: break-word;
+  }
+  
