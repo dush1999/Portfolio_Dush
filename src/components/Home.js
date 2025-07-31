@@ -26,6 +26,14 @@
         >
         View GitHub
         </a>
+        <a
+        href="https://www.linkedin.com/in/dushyanth-asrani/"
+        className="btn github"
+        target="_blank"
+        rel="noopener noreferrer"
+        >
+        View Linkedln
+        </a>
     </div>
     </div>
         </div>
