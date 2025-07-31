@@ -53,9 +53,9 @@ const Interest = () => {
                 <li key={i}>{point}</li>
               ))}
             </ul>
-            <a className="ml-project-link" href={project.link} target="_blank" rel="noopener noreferrer">
+            <div className='ml-projects-con'> <a className="ml-project-link" href={project.link} target="_blank" rel="noopener noreferrer">
               View Project ↗
-            </a>
+            </a></div>
           </div>
         ))}
       </div>

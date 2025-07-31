@@ -11,8 +11,11 @@
             </div>
             <div className="home-text">
     <h2>Hello, I'm <span className="highlight">Dushyanth Asrani</span></h2>
-    <p className="title-line">Software & Data Engineer</p>
+    <p className="title-line">Master's Student in AI at USF  </p>
     <p className="tagline"> Specializing in Analytics and Machine Learning </p>
+    <p className="title-line">  Data Engineer Inter/Co-op @ Tenet Health</p>
+    <p className="title-line">  Former Student Research Assitant @USF CUTR(ACME)</p>
+    <p className="title-line">  Former Data Engineer/Analyst @Accenture @Cognizant</p>
 
     <div className="home-buttons">
         <a

@@ -4,17 +4,17 @@
     flex-direction: column;
     align-items: center;
     background: transparent;
+    border-radius: 50px;
   }
   
   .about-heading {
-    font-size: 2.0rem;
+    font-size: 2.5rem;
     color: rgb(255, 255, 255);
     letter-spacing: 1.5px;
     font-weight: 500;
     margin-bottom: 25px;
     border-bottom: 2px solid #00adb5;
     padding-bottom: 4px;
-    font-family: 'Playfair Display', serif;
   }
   
   .about-card {

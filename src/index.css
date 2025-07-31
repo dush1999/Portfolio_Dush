@@ -10,13 +10,17 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  font-family: 'Segoe UI', sans-serif;
   color: #f0f0f0;
+  font-family: 'Montserrat', sans-serif;
 }
+
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
 
 section {
   padding: 80px 100px;
- 
   color: #e0e0e0;
   margin: 0;
   border-bottom: 1px solid #333;
@@ -29,6 +33,24 @@ section h1 {
 }
 
 section p {
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: #bbb;
+  text-align: justify;
+}
+p {
+  font-size: 1.25rem;
+  color: #bbb;
+  text-align: justify;
+}
+
+h3{
+  font-size: 1.75rem;
+}
+
+h4{
+  font-size: 1.5rem;
+}
+
+li{
+  font-size: 1rem;
 }

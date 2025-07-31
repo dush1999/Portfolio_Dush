@@ -3,6 +3,7 @@
     text-align: center;
     /* background-color: #000; */
     color: white;
+    border-radius: 50px;
   }
   
 .contact-title {
@@ -10,9 +11,9 @@
   font-weight: 700;
   color: #ffffff;
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
-  font-family: 'Playfair Display', serif;
+  /*  */
 }
   
   .contact-subtitle {
@@ -21,7 +22,8 @@
     color: #ffffff;
     margin-bottom: 50px;
     font-size: 1rem;
-    font-family: 'Playfair Display', serif;
+    text-align: center;
+    
   }
   
   .contact-grid {
@@ -66,5 +68,6 @@
     color: #ccc;
     font-size: 0.95rem;
     word-break: break-word;
+    text-align: center;
   }
   
