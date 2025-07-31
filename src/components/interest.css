@@ -1,0 +1,81 @@
+.ml-projects-section {
+    /* background-color: #0f0f0f; */
+    color: #ffffff;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .ml-projects-title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #facc15; /* Tailwind yellow-400 */
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .ml-projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 30px;
+    padding: 0 40px;
+  }
+  
+  .ml-project-card {
+    background-color: #1a1a1a;
+    padding: 30px 25px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    text-align: left;
+    transition: transform 0.3s ease;
+  }
+  
+  .ml-project-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .ml-project-icon {
+    font-size: 2rem;
+    color: #facc15;
+    margin-bottom: 15px;
+  }
+  
+  .ml-project-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .ml-project-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+  
+  .ml-project-dates {
+    font-size: 0.9rem;
+    color: #cccccc;
+    font-style: italic;
+  }
+  
+  .ml-project-description {
+    font-size: 0.95rem;
+    color: #dddddd;
+    margin-top: 10px;
+    line-height: 1.6;
+  }
+  
+  .ml-project-description li {
+    margin-bottom: 8px;
+    list-style-type: disc;
+    margin-left: 18px;
+  }
+  
+  .ml-project-link {
+    display: inline-block;
+    margin-top: 12px;
+    color: #facc15;
+    font-weight: 500;
+    text-decoration: underline;
+  }
+  
