@@ -1,5 +1,7 @@
+/* Skills.css */
+
 .skills-section {
-  padding: 80px 40px;
+  padding: 80px 100px;
   color: #ffffff;
   text-align: center;
   backdrop-filter: blur(3px);
@@ -13,18 +15,18 @@
   font-weight: 700;
   color: #ffffff;
   margin-bottom: 40px;
+  font-weight: bold;
 }
 
 .skills-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Force 3 columns on larger screens */
+  grid-template-columns: repeat(3, 1fr);
   gap: 30px;
 }
 
-
 .skill-category {
   background-color: #1a1a1a;
-  padding: 25px 20px;
+  padding: 25px;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -37,7 +39,7 @@
 
 .skill-category h3 {
   color: #00d9ff;
-  font-size: 1.05rem;
+  font-size: 1.0rem;
   margin-bottom: 15px;
   border-bottom: 1px solid #444;
   padding-bottom: 5px;
@@ -70,28 +72,19 @@
 }
 
 .skill-category h3 svg {
-  margin-right: 8px;
+  margin-right: 10px;
+  vertical-align: left;
 }
 
-
-@media screen and (max-width: 768px) {
-  .skills-section {
-    padding: 60px 20px;
+/* Responsive: 2 columns on tablets, 1 column on phones */
+@media screen and (max-width: 1024px) {
+  .skills-grid {
+    grid-template-columns: repeat(2, 1fr);
   }
+}
 
-  .skills-title {
-    font-size: 2rem;
-  }
-
-  .skill-category {
-    padding: 20px 15px;
-  }
-
-  .skill-category h3 {
-    font-size: 1rem;
-  }
-
-  .skill-category li {
-    font-size: 0.9rem;
+@media screen and (max-width: 480px) {
+  .skills-grid {
+    grid-template-columns: 1fr;
   }
 }
