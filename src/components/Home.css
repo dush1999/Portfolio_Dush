@@ -47,15 +47,17 @@
 .section-heading {
   font-size: 2.7rem;
   font-weight: 700;
-  display: inline;
   font-family: 'Montserrat', sans-serif;
   margin-bottom: 15px;
+  line-height: 1.2;
+  display: block;  /* Changed from inline */
+  text-align: left;
 }
 
 .highlight {
   color: #ff2e63;
   font-weight: bold;
-  white-space: nowrap;
+  white-space: normal; /* Allow wrapping */
 }
 
 .title-line {
@@ -108,17 +110,9 @@
     text-align: center;
   }
 
-  .home-text p,
-  .home-text h2 {
-    text-align: center;
-  }
-
-  .home-buttons {
-    justify-content: center;
-  }
-
   .section-heading {
     font-size: 2.2rem;
+    text-align: center;
   }
 
   .title-line {

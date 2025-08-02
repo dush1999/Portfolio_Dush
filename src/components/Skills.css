@@ -17,9 +17,10 @@
 
 .skills-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 25px;
+  grid-template-columns: repeat(3, 1fr); /* Force 3 columns on larger screens */
+  gap: 30px;
 }
+
 
 .skill-category {
   background-color: #1a1a1a;
@@ -72,7 +73,7 @@
   margin-right: 8px;
 }
 
-/* ✅ Responsive Adjustments */
+
 @media screen and (max-width: 768px) {
   .skills-section {
     padding: 60px 20px;
