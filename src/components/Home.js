@@ -6,11 +6,12 @@ function Home() {
     <section id="home" className="home-section">
       <div className="home-box">
         <div className="home-image">
-          <img src="/Dush.jpg" alt="Dushyanth Asrani Gopal" />
+        <img src={`${process.env.PUBLIC_URL}/Dush.jpg`} alt="Dushyanth Asrani Gopal" />
         </div>
         <div className="home-text">
           <h2 className="section-heading">
-            Hello, I'm <span className="highlight">Dushyanth Asrani</span>
+            Hello,&nbsp;
+            <span className="nowrap">I'm <span className="highlight">Dushyanth Asrani</span></span>
           </h2>
           <p className="title-line">Master's Student in AI at USF</p>
           <p className="tagline">Specializing in Analytics and Machine Learning</p>

@@ -7,7 +7,7 @@ function About() {
       <h2 className="section-heading">KNOW ME BETTER</h2>
 
       <div className="about-card top-card">
-        <img src="/Dush1.jpeg" alt="Dushyanth Asrani Gopal" className="about-photo" />
+      <img src={`${process.env.PUBLIC_URL}/Dush1.jpeg`} alt="Dushyanth Asrani Gopal" className="about-photo" />
         <div className="about-header-text">
           <h2 className="about-name">Dushyanth Asrani Gopal</h2>
           <p className="about-title">Software & Data Engineer | ML & Analytics Enthusiast</p>

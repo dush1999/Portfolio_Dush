@@ -162,3 +162,7 @@
     padding: 8px 16px;
   }
 }
+
+.nowrap {
+  white-space: nowrap;
+}

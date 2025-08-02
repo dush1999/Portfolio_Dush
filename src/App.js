@@ -14,7 +14,7 @@ function App() {
   return (
     <div
       style={{
-        backgroundImage: "url('/background.jpg')",
+        backgroundImage: `url(${process.env.PUBLIC_URL}/background.jpg)`,
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         backgroundAttachment: "fixed",
