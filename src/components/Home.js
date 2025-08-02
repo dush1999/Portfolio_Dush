@@ -12,7 +12,7 @@ function Home() {
           />
         </div>
         <div className="home-text">
-          <h2 className="section-heading1">
+          <h2 className="section-heading">
             Hello, I'm <span className="highlight">Dushyanth Asrani</span>
           </h2>
           <p className="title-line">Master's Student in AI at USF</p>

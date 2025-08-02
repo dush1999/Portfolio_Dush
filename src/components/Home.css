@@ -44,7 +44,7 @@
   color: white;
 }
 
-.section-heading1 {
+.section-heading {
   font-size: 2.7rem;
   font-weight: 700;
   font-family: 'Montserrat', sans-serif;
@@ -110,7 +110,7 @@
     text-align: center;
   }
 
-  .section-heading1 {
+  .section-heading{
     font-size: 1.5rem;
     text-align: center;
   }
@@ -142,7 +142,7 @@
     padding: 30px 15px;
   }
 
-  .section-heading1 {
+  .section-heading {
     font-size: 1.5rem;
   }
 
