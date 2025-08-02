@@ -1,5 +1,5 @@
 .home-section {
-  min-height: 100vh;
+  /* min-height: 100vh; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -47,17 +47,17 @@
 .section-heading {
   font-size: 2.7rem;
   font-weight: 700;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin-bottom: 15px;
   line-height: 1.2;
-  display: block;  
+  display: block;
   text-align: left;
 }
 
 .highlight {
   color: #ff2e63;
   font-weight: bold;
-  white-space: normal; 
+  white-space: normal;
 }
 
 .title-line {
@@ -79,6 +79,11 @@
   display: flex;
   flex-wrap: wrap;
   gap: 15px;
+
+  @media screen and (max-width: 768px) {
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 .btn.github {
@@ -110,7 +115,7 @@
     text-align: center;
   }
 
-  .section-heading{
+  .section-heading {
     font-size: 1.5rem;
     text-align: center;
   }
@@ -135,7 +140,7 @@
 
 @media screen and (max-width: 480px) {
   .home-section {
-    padding: 30px 10px;
+    padding: 30px 20px;
   }
 
   .home-box {
@@ -157,6 +162,6 @@
   }
 
   .highlight {
-    white-space: normal; 
+    white-space: normal;
   }
 }

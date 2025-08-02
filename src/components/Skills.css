@@ -1,4 +1,4 @@
-/* Skills.css */
+s/* Skills.css */
 
 .skills-section {
   padding: 80px 100px;
@@ -8,6 +8,10 @@
   border-radius: 50px;
   margin: 50px auto;
   max-width: 1200px;
+
+  @media screen and (max-width: 768px) {
+    padding: 0 20px;
+  }
 }
 
 .skills-title {
@@ -16,6 +20,10 @@
   color: #ffffff;
   margin-bottom: 40px;
   font-weight: bold;
+
+  @media screen and (max-width: 768px) {
+    text-align: center;
+  }
 }
 
 .skills-grid {
@@ -39,7 +47,7 @@
 
 .skill-category h3 {
   color: #00d9ff;
-  font-size: 1.0rem;
+  font-size: 1rem;
   margin-bottom: 15px;
   border-bottom: 1px solid #444;
   padding-bottom: 5px;
