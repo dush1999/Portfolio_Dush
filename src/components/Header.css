@@ -1,42 +1,126 @@
 .header {
-    background-color: #1a1a2e;
-    color: white;
-    padding: 20px 40px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: sticky;
+  background-color: #1a1a2e;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.logo {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem; /* slightly smaller on mobile if you prefer */
+  font-style: italic;
+  font-weight: 700;
+  color: #ff2e63;
+  letter-spacing: 2px;
+}
+
+/* Toggle Button */
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+  position: absolute;
+  top: 1.2rem;
+  right: 2rem;
+  z-index: 1001;
+  transition: transform 0.2s ease;
+}
+
+.menu-toggle:hover {
+  transform: scale(1.1);
+}
+
+/* Desktop nav */
+.nav-wrapper {
+  display: flex;
+}
+
+.nav-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #e0e0e0;
+  text-decoration: none;
+  padding: 0.5rem 0.75rem;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.nav-links a:hover {
+  background-color: #00adb5;
+  color: #1a1a2e;
+  box-shadow: 0 0 10px #00adb5;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    flex-direction: row;
+    position: relative;
+  }
+
+  .menu-toggle {
+    display: block;
+    font-size: 1.6rem;
+    top: 1rem;
+    right: 1rem;
+  }
+
+  .nav-wrapper {
+    display: none;
+  }
+
+  .nav-wrapper.open {
+    display: block;
+    position: fixed;
     top: 0;
-    z-index: 999;
+    left: 0;
+    background-color: rgba(15, 23, 42, 0.95); 
+    width: 100vw;
+    height: 100vh;
+    padding-top: 5rem;
+    z-index: 1000;
+    animation: fadeIn 0.3s ease-in-out;
   }
-  
-  .logo {
-    font-size: 2.2rem;
-    font-style: italic;
-    font-weight: 700;
-    color: #ff2e63;
-    letter-spacing: 2px;
-  }
-  
+
   .nav-links {
-    display: flex;
-    gap: 30px;
-    list-style: none;
-    margin: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.2rem;
+    height: 100%;
   }
-  
+
   .nav-links a {
-    color: #e0e0e0;
-    text-decoration: none;
-    font-size: 1rem;
-    padding: 8px 12px;
-    border-radius: 5px;
-    transition: all 0.3s ease;
+    font-size: 1.1rem; 
+    padding: 0.75rem 1rem;
   }
-  
-  .nav-links a:hover {
-    background-color: #00adb5;
-    color: #1a1a2e;
-    box-shadow: 0 0 10px #00adb5;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10%);
   }
-  
+  to {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}

@@ -1,109 +1,113 @@
-/* Experience.css */
-
 .experience-section {
-    padding: 80px 40px;
-    background: transparent;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    border-radius: 50px;
+  padding: 80px 40px;
+  background: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 50px;
+}
+
+.experience-title {
+  font-size: clamp(2rem, 5vw, 2.5rem);
+  color: #ffffff;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  border-bottom: 3px solid #00adb5;
+  padding-bottom: 6px;
+}
+
+.experience-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 30px;
+  width: 100%;
+  max-width: 1300px;
+}
+
+.experience-card {
+  background-color: rgba(0, 0, 0, 0.85);
+  border-radius: 12px;
+  padding: 30px 25px;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.4);
+  color: #e0e0e0;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.experience-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 0 24px rgba(0, 0, 0, 0.5);
+}
+
+.experience-card h3 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #ffffff;
+}
+
+.experience-card h4 {
+  font-size: 1.15rem;
+  color: #cccccc;
+  margin-bottom: 6px;
+}
+
+.experience-date-location {
+  font-size: 0.95rem;
+  color: #aaa;
+  margin-bottom: 12px;
+}
+
+.experience-card ul {
+  padding-left: 20px;
+  margin: 0;
+}
+
+.experience-card li {
+  font-size: 1rem;
+  color: #dddddd;
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .experience-section {
+    padding: 60px 20px;
   }
-  
+
   .experience-title {
-    font-size: 2.5rem;
-    margin-bottom: 40px;
-    text-align: center;
-    color: #ffffff;
-    margin-bottom: 40px;
-    font-weight: bold;
-    font-weight: 700;
-    /*  */
+    font-size: 2rem;
   }
-  
+
   .experience-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    gap: 30px;
-    max-width: 1300px;
-    width: 100%;
+    grid-template-columns: 1fr;
+    gap: 20px;
   }
-  
+
   .experience-card {
-    background-color: rgba(0, 0, 0, 0.8);
-    border-radius: 12px;
-    padding: 30px 25px;
-    box-shadow: 0 0 16px rgba(0, 0, 0, 0.4);
-    color: #e0e0e0;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 25px 18px;
   }
-  
-  .experience-card:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
+}
+
+@media screen and (max-width: 480px) {
+  .experience-title {
+    font-size: 1.75rem;
   }
-  
-  .experience-role {
-    font-size: 1.3rem;
-    font-weight: bold;
-    margin-bottom: 5px;
-    color: #ff2e63;
+
+  .experience-card h3 {
+    font-size: 1.2rem;
   }
-  
-  .experience-company {
-    font-size: 1.1rem;
-    margin-bottom: 8px;
-    color: #ccc;
-  }
-  
-  .experience-dates {
-    font-size: 0.95rem;
-    color: #aaa;
-    margin-bottom: 12px;
-  }
-  
-  .experience-description {
+
+  .experience-card h4 {
     font-size: 1rem;
-    color: #bbb;
-    line-height: 1.5;
   }
-  
-  @media screen and (max-width: 768px) {
-    .experience-section {
-      padding: 60px 20px;
-    }
-  
-    .experience-title {
-        font-size: 2.2rem;
-        font-weight: 700;
-        color: #00adb5;  /* You can change this to match your brand */
-        text-align: center;
-        margin-bottom: 40px;
-        letter-spacing: 1px;
-        text-transform: uppercase;
-        position: relative;
-      }
-      
-      .experience-title::after {
-        content: "";
-        display: block;
-        width: 60px;
-        height: 3px;
-        background-color: #00adb5;
-        margin: 10px auto 0;
-        border-radius: 2px;
-      }
-  
-    .experience-card {
-      padding: 25px 20px;
-    }
+
+  .experience-date-location {
+    font-size: 0.85rem;
   }
-  .experience-card ul {
-    padding-left: 20px;
-  }
-  
+
   .experience-card li {
-    margin-bottom: 10px;
-    line-height: 1.5;
+    font-size: 0.95rem;
   }
+}

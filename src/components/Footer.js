@@ -9,7 +9,7 @@ function Footer() {
         <p>&copy; {new Date().getFullYear()} Dushyanth Asrani Gopal. All rights reserved.</p>
         <div className="footer-links">
           <a href="https://github.com/dush1999" target="_blank" rel="noopener noreferrer">GitHub</a>
-          <a href="https://www.linkedin.com/in/dushyanth-asrani-gopal/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="https://www.linkedin.com/in/dushyanth-asrani/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
         </div>
       </div>
     </footer>

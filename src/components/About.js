@@ -1,20 +1,21 @@
 import React from 'react';
 import './About.css';
-import myPhoto from "/Users/dushyanthasrani/Desktop/my_portfolio/my-portfolio/src/Dush1.jpeg";
 
 function About() {
   return (
     <section id="about" className="about-section">
-      <h3 className="about-heading">KNOW ME BETTER</h3>
+      <h2 className="section-heading">KNOW ME BETTER</h2>
 
       <div className="about-card top-card">
-        <img src={myPhoto} alt="Dushyanth Asrani Gopal" className="about-photo" />
+        <img src="/Dush1.jpeg" alt="Dushyanth Asrani Gopal" className="about-photo" />
         <div className="about-header-text">
-          <h2>Dushyanth Asrani Gopal</h2>
+          <h2 className="about-name">Dushyanth Asrani Gopal</h2>
           <p className="about-title">Software & Data Engineer | ML & Analytics Enthusiast</p>
-          <p className="about-contact">📧 dasranigopal@gmail.com</p>
-          <p className="about-contact">📞 +1 813-568-5536</p>
-          <p className="about-contact">🌎 Dallas, Texas, United States</p>
+          <div className="about-contact-wrapper">
+            <p className="about-contact">📧 dasranigopal@gmail.com</p>
+            <p className="about-contact">📞 +1 813-568-5536</p>
+            <p className="about-contact">🌎 Dallas, Texas, United States</p>
+          </div>
         </div>
       </div>
 
