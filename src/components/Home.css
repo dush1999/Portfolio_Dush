@@ -44,20 +44,20 @@
   color: white;
 }
 
-.section-heading {
+.section-heading1 {
   font-size: 2.7rem;
   font-weight: 700;
   font-family: 'Montserrat', sans-serif;
   margin-bottom: 15px;
   line-height: 1.2;
-  display: block;  /* Changed from inline */
+  display: block;  
   text-align: left;
 }
 
 .highlight {
   color: #ff2e63;
   font-weight: bold;
-  white-space: normal; /* Allow wrapping */
+  white-space: normal; 
 }
 
 .title-line {
@@ -110,8 +110,8 @@
     text-align: center;
   }
 
-  .section-heading {
-    font-size: 2.2rem;
+  .section-heading1 {
+    font-size: 1.5rem;
     text-align: center;
   }
 
@@ -142,8 +142,8 @@
     padding: 30px 15px;
   }
 
-  .section-heading {
-    font-size: 1.4rem;
+  .section-heading1 {
+    font-size: 1.5rem;
   }
 
   .title-line,
