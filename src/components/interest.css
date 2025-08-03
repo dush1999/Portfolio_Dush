@@ -1,6 +1,6 @@
 .ml-projects-section {
   color: #ffffff;
-  padding: 80px 70px;
+  padding: 60px 80px;
   text-align: center;
   border-radius: 50px;
   margin: 0;
@@ -35,8 +35,6 @@
   flex-direction: column;
   text-align: left;
   transition: transform 0.3s ease;
-  height: 100%;
-  margin-bottom: 20px; /* ✅ adds spacing between stacked cards in mobile */
 }
 
 .ml-project-card:hover {

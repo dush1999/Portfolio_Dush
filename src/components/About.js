@@ -11,20 +11,21 @@ function About() {
         <div className="about-card top-card">
           <img src={`${process.env.PUBLIC_URL}/Dush1.jpeg`} alt="Dushyanth Asrani Gopal" className="about-photo" />
           <div className="about-header-text">
-            <h2 className="about-name">Dushyanth Asrani Gopal</h2>
+            <p className="about-name">Dushyanth Asrani Gopal</p>
             <p className="about-title">Software & Data Engineer | ML & Analytics Enthusiast</p>
             <div className="about-contact-wrapper">
               <p className="about-contact">📧 dasranigopal@gmail.com</p>
               <p className="about-contact">📞 +1 813-568-5536</p>
               <p className="about-contact">🌎 Dallas, Texas, United States</p>
             </div>
+            <p>
+              I’m Dushyanth Asrani Gopal, an M.S. student in Artificial Intelligence and Business Analytics at the University of South Florida, passionate about leveraging data for impact.
+            </p>
           </div>
         </div>
 
         <div className="about-card bottom-card">
-          <p>
-            I’m Dushyanth Asrani Gopal, an M.S. student in Artificial Intelligence and Business Analytics at the University of South Florida, passionate about leveraging data for impact.
-          </p>
+
           <p>
             With over 3 years of experience at Accenture and Cognizant, I’ve built scalable Snowflake data warehouses, optimized SQL procedures, automated SAP BRF+ workflows, and developed Python-based ETL pipelines on AWS.
           </p>

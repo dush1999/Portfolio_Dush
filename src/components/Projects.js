@@ -12,7 +12,7 @@ const projectData = [
   {
     title: 'Self-Driving Car Simulation',
     link: 'https://github.com/dush1999/self_driving_car',
-    image: car1, 
+    image: car1,
     description: 'Designed and implemented a deep learning model using PyTorch for real-time autonomous control of a self-driving car, integrating reinforcement learning for optimized obstacle detection and navigation.',
   },
   {

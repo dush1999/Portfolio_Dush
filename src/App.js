@@ -14,7 +14,7 @@ function App() {
   return (
     <div
       style={{
-        backgroundImage: `url(${process.env.PUBLIC_URL}/background.jpg)`,
+        backgroundImage: `url(${process.env.PUBLIC_URL}/backgroundtwo.jpg)`,
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         backgroundAttachment: "fixed",
@@ -30,10 +30,10 @@ function App() {
       <Education />
       <Experience />
       <Skills />
-     <Projects />
-     <Interest />
-     <Contact />
-     <Footer />
+      <Projects />
+      <Interest />
+      <Contact />
+      <Footer />
     </div>
   );
 }

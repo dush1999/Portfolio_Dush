@@ -30,7 +30,7 @@ const Contact = () => {
         <div className="contact-card">
           <div className="contact-icon"><FaDownload /></div>
           <h4>Resume</h4>
-          <p><a href="/Dushyanth_Asrani_Gopal_Resume_Data_Engineer.pdf" target="_blank" rel="noopener noreferrer">Click Here</a></p>
+          <p className='contact-link'><a  href="/Dushyanth_Asrani_Gopal_Resume_Data_Engineer.pdf" target="_blank" rel="noopener noreferrer">View</a></p>
         </div>
       </div>
     </section>

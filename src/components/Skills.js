@@ -6,8 +6,37 @@ function Skills() {
   return (
     <section id="skills" className="skills-section">
       <h2 className="skills-title">Skills</h2>
+
+      <div className='skillsContainer'>
+
+        <div className='skillItem'>
+          <img src="/Portfolio_Dush/python.jpg" alt='skill-logo' width={90} height={100} />
+          <p>Python</p>
+        </div>
+
+        <div className='skillItem'>
+          <img src="/Portfolio_Dush/java.svg" alt='skill-logo' width={90} height={100} />
+          <p>Java</p>
+        </div>
+
+        <div className='skillItem'>
+          <img src="/Portfolio_Dush/html.png" alt='skill-logo' width={90} height={100} />
+          <p>Html</p>
+        </div>
+
+        <div className='skillItem'>
+          <img src="/Portfolio_Dush/css.png" alt='skill-logo' width={90} height={100} />
+          <p>CSS</p>
+        </div>
+
+        <div className='skillItem'>
+          <img src='/Portfolio_Dush/react.png' alt='skill-logo' width={90} height={100} />
+          <p>React Js</p>
+        </div>
+      </div>
+
       <div className="skills-grid">
-        <div className="skill-category">
+        {/* <div className="skill-category">
           <h3><FaCode /> Programming Languages</h3>
           <ul>
             <li>Python</li>
@@ -16,7 +45,7 @@ function Skills() {
             <li>Git</li>
             <li>Data Structures & Algorithms</li>
           </ul>
-        </div>
+        </div> */}
 
         <div className="skill-category">
           <h3><FaCode /> Libraries & Frameworks</h3>
@@ -72,7 +101,7 @@ function Skills() {
           </ul>
         </div>
 
-        {/* <div className="skill-category">
+        <div className="skill-category">
           <h3><FaDatabase /> Data Structures & Algorithms</h3>
           <ul>
             <li>Arrays, HashMaps, Stacks, Trees</li>
@@ -80,8 +109,9 @@ function Skills() {
             <li>Recursion, Dynamic Programming</li>
             <li>LeetCode Top 150</li>
           </ul>
-        </div> */}
+        </div>
       </div>
+
     </section>
   );
 }
