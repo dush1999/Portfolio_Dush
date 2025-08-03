@@ -20,6 +20,7 @@ s/* Skills.css */
   color: #ffffff;
   margin-bottom: 40px;
   font-weight: bold;
+  text-align: center;
 
   @media screen and (max-width: 768px) {
     text-align: center;
