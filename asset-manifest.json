@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Portfolio_Dush/static/css/main.38812d4d.css",
-    "main.js": "/Portfolio_Dush/static/js/main.96877b0d.js",
+    "main.css": "/Portfolio_Dush/static/css/main.73c8ff98.css",
+    "main.js": "/Portfolio_Dush/static/js/main.ee995ac8.js",
     "static/media/speed1.jpg": "/Portfolio_Dush/static/media/speed1.9a77732b14a51b13ebd9.jpg",
     "static/media/ad1.jpeg": "/Portfolio_Dush/static/media/ad1.d2a3a25567978b494d07.jpeg",
     "static/media/costs.jpeg": "/Portfolio_Dush/static/media/costs.fdc559061a802a79d99d.jpeg",
     "static/media/car1.jpg": "/Portfolio_Dush/static/media/car1.65ef9e1652e0d0df421c.jpg",
     "index.html": "/Portfolio_Dush/index.html",
-    "main.38812d4d.css.map": "/Portfolio_Dush/static/css/main.38812d4d.css.map",
-    "main.96877b0d.js.map": "/Portfolio_Dush/static/js/main.96877b0d.js.map"
+    "main.73c8ff98.css.map": "/Portfolio_Dush/static/css/main.73c8ff98.css.map",
+    "main.ee995ac8.js.map": "/Portfolio_Dush/static/js/main.ee995ac8.js.map"
   },
   "entrypoints": [
-    "static/css/main.38812d4d.css",
-    "static/js/main.96877b0d.js"
+    "static/css/main.73c8ff98.css",
+    "static/js/main.ee995ac8.js"
   ]
 }
