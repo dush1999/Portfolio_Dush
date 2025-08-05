@@ -12,7 +12,7 @@ function About() {
           <img src={`${process.env.PUBLIC_URL}/Dush1.jpeg`} alt="Dushyanth Asrani Gopal" className="about-photo" />
           <div className="about-header-text">
             <p className="about-name">Dushyanth Asrani Gopal</p>
-            <p className="about-title">Software & Data Engineer | ML & Analytics Enthusiast</p>
+            <p className="about-title"> Data Engineer | ML Enthusiast | Analytical Thinker| Problem Solver </p>
             <div className="about-contact-wrapper">
               <p className="about-contact">📧 dasranigopal@gmail.com</p>
               <p className="about-contact">📞 +1 813-568-5536</p>

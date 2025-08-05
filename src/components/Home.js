@@ -1,5 +1,6 @@
 import React from 'react';
 import './Home.css';
+import { Typewriter } from 'react-simple-typewriter';
 
 function Home() {
   return (
@@ -12,9 +13,22 @@ function Home() {
           />
         </div>
         <div className="home-text">
-          <h2 className="section-heading">
-            Hello, I'm <span className="highlight">Dushyanth Asrani</span>
-          </h2>
+          <h1 className="home-title">
+            Hi, I'm <span className="highlight">Dushyanth</span>
+            <br />
+            <span className="typewriter-text">
+              <Typewriter
+                words={['Software and Data Engineer', 'ML Enthusiast']}
+                loop={0}
+                cursor
+                cursorStyle="|"
+                typeSpeed={70}
+                deleteSpeed={50}
+                delaySpeed={1000}
+              />
+            </span>
+          </h1>
+
           <p className="title-line">Master's Student in AI at USF</p>
           <p className="tagline">Specializing in Analytics and Machine Learning</p>
           <p className="title-line">Data Engineer Intern/Co-op @ Tenet Health</p>
